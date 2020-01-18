@@ -1,0 +1,28 @@
+#+title: readme-org.el
+#+author: Will Dey
+
+* About
+Keep your documentation with your code: readme-org.el generates a completely-customizable Org document from the *Commentary* section of your Elisp code. As an example, the file you're reading right now was generated with readme-org.
+
+Org is a powerful plain-text . Both [[https://github.com][Github]] and [[https://gitlab.com][GitLab]] automatically render and preview README.org files when viewing projects.
+
+The full power of Org can be used in comments, 
+
+(see [[Global Mode]])
+
+* Installation
+Add to your ~load-path~
+
+* Usage
+
+** Global Mode
+
+* Customization
+~readme-org-filename~
+
+~readme-org-title-format~
+
+~readme-org-activation-cookie~
+
+* See also
+- [[https://github.com/thomas11/md-readme][md-readme]] - To generate Markdown READMEs instead of Org
